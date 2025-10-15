@@ -1,10 +1,4 @@
 {
-  "version": 2,
-  "functions": {
-    "api/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "rewrites": [
     { "source": "/cotacao", "destination": "/api/cotacao" },
     { "source": "/clima",   "destination": "/api/clima"   },
